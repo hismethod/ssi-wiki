@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksecure_identity_wiki=self.webpackChunksecure_identity_wiki||[]).push([[6427],{7744:e=>{e.exports=JSON.parse('{"permalink":"/ssi-wiki/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

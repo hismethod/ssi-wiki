@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksecure_identity_wiki=self.webpackChunksecure_identity_wiki||[]).push([[5679],{9412:e=>{e.exports=JSON.parse('{"label":"facebook","permalink":"/ssi-wiki/blog/tags/facebook","allTagsPath":"/ssi-wiki/blog/tags","count":1,"unlisted":false}')}}]);
