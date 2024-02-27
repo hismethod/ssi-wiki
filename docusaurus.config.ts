@@ -3,20 +3,20 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "My Site",
+  title: "SSI Wiki",
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://ssi101.vercel.app",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/ssi-wiki/",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Hopae", // Usually your GitHub org/user name.
+  projectName: "SSI Wiki", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -56,9 +56,9 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "My Site",
+      title: "All about SSI",
       logo: {
-        alt: "My Site Logo",
+        alt: "Logo",
         src: "img/logo.svg",
       },
       items: [
@@ -66,12 +66,12 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "Docs",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
+          href: "https://www.hopae.com/contact",
+          label: "Learn More?",
           position: "right",
         },
       ],
@@ -83,7 +83,7 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
+              label: "Wiki",
               to: "/docs/intro",
             },
           ],
@@ -109,6 +109,10 @@ const config: Config = {
           title: "More",
           items: [
             {
+              label: "Hopae",
+              href: "https://www.hopae.com/",
+            },
+            {
               label: "Blog",
               to: "/blog",
             },
@@ -119,7 +123,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Hopae, Inc.`,
     },
     prism: {
       theme: prismThemes.github,
