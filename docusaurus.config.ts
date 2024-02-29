@@ -16,7 +16,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "Hopae", // Usually your GitHub org/user name.
-  projectName: "SSI Wiki", // Usually your repo name.
+  projectName: "Decentralized", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -26,7 +26,12 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "ko"],
+    localeConfigs: {
+      ko: {
+        htmlLang: "ko-KR",
+      },
+    },
   },
 
   presets: [
