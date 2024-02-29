@@ -1,8 +1,8 @@
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import Layout from "@theme/Layout";
 import Heading from "@theme/Heading";
 
 import styles from "./index.module.css";
@@ -13,18 +13,18 @@ function HomepageHeader() {
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          디지털 신원, 당신의 자유
+          Decentralized Identity Wiki
         </Heading>
         <p className="hero__subtitle">
-          "디지털 시대, 우리의 신원은 어떻게 관리되어야 할까요?
+          "Explore how to manage and protect your digital identity in the digital world.
           <br />
-          당신의 정보는 오롯이 당신의 것입니다.
+          Decentralized Identity (DI) offers an innovative approach
           <br />
-          자기주권신원(SSI)으로 당신만의 디지털 신원을 안전하게 관리하고 보호하세요."
+          to enhance personal autonomy and realize data sovereignty."
         </p>
         <div className={styles.buttons}>
           <Link className="button button--secondary button--lg" to="/docs/intro">
-            SSI의 기본 이해하기
+            Start with DI - Learn More
           </Link>
         </div>
       </div>
