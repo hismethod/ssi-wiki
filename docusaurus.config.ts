@@ -73,7 +73,6 @@ const config: Config = {
           position: "left",
           label: "Docs",
         },
-        { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://www.hopae.com/contact",
           label: "Learn More?",
@@ -89,7 +88,7 @@ const config: Config = {
           items: [
             {
               label: "Wiki",
-              to: "/docs/intro",
+              to: "/docs/Decentralized-Identity/philosophical-beginning",
             },
           ],
         },

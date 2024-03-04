@@ -1,3 +1,3 @@
 ---
-title: "DID"
+title: "DID (Decentralized Identifier)"
 ---
