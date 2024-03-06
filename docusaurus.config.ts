@@ -88,7 +88,7 @@ const config: Config = {
           items: [
             {
               label: "Wiki",
-              to: "/docs/Decentralized-Identity/philosophical-beginning",
+              to: "/docs/Basics/philosophy",
             },
           ],
         },

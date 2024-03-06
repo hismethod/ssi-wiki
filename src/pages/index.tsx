@@ -23,7 +23,7 @@ function HomepageHeader() {
           to enhance personal autonomy and realize data sovereignty."
         </p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/Decentralized-Identity/philosophical-beginning/">
+          <Link className="button button--secondary button--lg" to="/docs/Basics/philosophy/">
             Curious?
           </Link>
         </div>
